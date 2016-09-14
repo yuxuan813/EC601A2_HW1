@@ -108,7 +108,11 @@ if __name__ == '__main__':
             cv2.imshow('histogram',lines)
             cv2.imshow('image',norm)
         elif k == 27:
+<<<<<<< HEAD
             print('ESCAPE3')
+=======
+            print('ESCAPE6')
+>>>>>>> anindya_9_14
             cv2.destroyAllWindows()
             break
     cv2.destroyAllWindows()
