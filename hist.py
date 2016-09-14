@@ -84,31 +84,31 @@ if __name__ == '__main__':
             curve = hist_curve(im)
             cv2.imshow('histogram',curve)
             cv2.imshow('image',im)
-            print('a')
+            print('aa')
         elif k == ord('b'):
-            print('b')
+            print('bb')
             lines = hist_lines(im)
             cv2.imshow('histogram',lines)
             cv2.imshow('image',gray)
-        elif k == ord('c'):
+        elif k == ord('cc'):
             print('c')
             equ = cv2.equalizeHist(gray)
             lines = hist_lines(equ)
             cv2.imshow('histogram',lines)
             cv2.imshow('image',equ)
         elif k == ord('d'):
-            print('d')
+            print('dd')
             curve = hist_curve(gray)
             cv2.imshow('histogram',curve)
             cv2.imshow('image',gray)
         elif k == ord('e'):
-            print('e')
+            print('ee')
             norm = cv2.normalize(gray, gray, alpha = 0,beta = 255,norm_type = cv2.NORM_MINMAX)
             lines = hist_lines(norm)
             cv2.imshow('histogram',lines)
             cv2.imshow('image',norm)
         elif k == 27:
-            print('ESC')
+            print('ESCAPE2')
             cv2.destroyAllWindows()
             break
     cv2.destroyAllWindows()
