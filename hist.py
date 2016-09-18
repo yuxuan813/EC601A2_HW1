@@ -108,7 +108,7 @@ if __name__ == '__main__':
             cv2.imshow('histogram',lines)
             cv2.imshow('image',norm)
         elif k == 27:
-            print('ESCAPE1')
+            print('ESCAPE2')
             cv2.destroyAllWindows()
             break
     cv2.destroyAllWindows()
