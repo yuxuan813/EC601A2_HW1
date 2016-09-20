@@ -104,13 +104,14 @@ if __name__ == '__main__':
             cv2.imshow('histogram',curve)
             cv2.imshow('image',gray)
         elif k == ord('e'):
-            print ('e')
+            print ('e - anindya')
             norm = cv2.normalize(gray,alpha = 0,beta = 255,norm_type = cv2.NORM_MINMAX)
             lines = hist_lines(norm)
             cv2.imshow('histogram',lines)
             cv2.imshow('image',norm)
         elif k == 27:
             print('ESC919_3')
+            print ('ESC - anindya')
             cv2.destroyAllWindows()
             break
     cv2.destroyAllWindows()
