@@ -110,7 +110,7 @@ if __name__ == '__main__':
             cv2.imshow('histogram',lines)
             cv2.imshow('image',norm)
         elif k == 27:
-            print('ESC919_3')
+            print('ESC919_3_anindya')
             print ('ESC - anindya')
             cv2.destroyAllWindows()
             break
